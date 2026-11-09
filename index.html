@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moonward — Independent mobile app studio</title>
+  <meta name="description" content="Moonward designs, publishes and grows its own portfolio of mobile apps. No client work — every product we ship is ours to own, improve and compound.">
+  <meta name="theme-color" content="#08080C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Moonward — We build apps. Then we keep them.">
+  <meta property="og:description" content="An independent studio that designs, publishes and grows its own mobile apps.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a href="#top" class="brand" aria-label="Moonward home">
+        <svg class="brand-mark" width="26" height="26" viewBox="0 0 26 26" aria-hidden="true">
+          <circle cx="13" cy="13" r="12" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M16 5.5a8 8 0 1 0 0 15 9.5 9.5 0 0 1 0-15z" fill="currentColor"/>
+        </svg>
+        Moonward
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#apps">Apps</a>
+        <a href="#studio">Studio</a>
+        <a href="#traction">Traction</a>
+        <a href="#partners">Partners</a>
+        <a href="#partners" class="btn btn-light nav-cta-mobile">Get in touch</a>
+      </div>
+
+      <a href="#partners" class="btn btn-light nav-cta">Get in touch</a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path class="icon-open" d="M4 7h16M4 12h16M4 17h16"/>
+          <path class="icon-close" d="M6 6l12 12M18 6L6 18"/>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section id="top" class="hero">
+      <div class="glow glow-hero" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <div class="pill"><span class="dot"></span>Independent app studio — products, not projects</div>
+        <h1>We build apps.<br>Then we keep them.</h1>
+        <p class="lead">Moonward designs, publishes and grows its own portfolio of mobile apps. No client work — every product we ship is ours to own, improve and compound for years.</p>
+        <div class="hero-actions">
+          <a href="#apps" class="btn btn-accent">
+            Explore our apps
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+          <a href="#partners" class="btn btn-ghost">Partner with us</a>
+        </div>
+      </div>
+
+      <!-- Phone trio (decorative) -->
+      <div class="phones" aria-hidden="true">
+        <!-- Left: sleep app -->
+        <div class="phone phone-side phone-left">
+          <div class="screen screen-sleep">
+            <div class="eyebrow-sm" style="color:#7FC8A9">Tonight</div>
+            <div class="screen-title" style="color:#E8F5EF">Rain on<br>a tin roof</div>
+            <div class="sleep-orb-wrap">
+              <div class="sleep-ring"><div class="sleep-orb"></div></div>
+            </div>
+            <div class="progress"><div class="progress-fill"></div></div>
+          </div>
+        </div>
+
+        <!-- Center: budget app -->
+        <div class="phone phone-center">
+          <div class="screen screen-budget">
+            <div class="row-between">
+              <span class="muted-sm">November</span>
+              <span class="avatar"></span>
+            </div>
+            <div class="balance">$2,418<span>.40</span></div>
+            <div class="muted-sm balance-label">Left to spend this month</div>
+            <div class="bars">
+              <span style="height:40%"></span>
+              <span style="height:65%"></span>
+              <span style="height:50%"></span>
+              <span class="bar-accent" style="height:85%"></span>
+              <span style="height:55%"></span>
+              <span style="height:30%"></span>
+            </div>
+            <div class="txn"><span>Groceries</span><span>−$64.20</span></div>
+            <div class="txn"><span>Transit</span><span>−$12.00</span></div>
+          </div>
+        </div>
+
+        <!-- Right: running app -->
+        <div class="phone phone-side phone-right">
+          <div class="screen screen-run">
+            <div class="eyebrow-sm" style="color:#F0B37E">Morning run</div>
+            <div class="run-distance">5.24<span> km</span></div>
+            <div class="run-map">
+              <svg viewBox="0 0 200 200" width="100%" height="100%" preserveAspectRatio="none"><path d="M20 170 C 50 120, 60 150, 90 100 S 140 60, 180 30" fill="none" stroke="#F0B37E" stroke-width="3" stroke-linecap="round"/></svg>
+            </div>
+            <div class="run-stats">
+              <div>Pace<strong>5'12"</strong></div>
+              <div>Time<strong>27:16</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider container"></div>
+    </section>
+
+    <!-- ============ PLATFORM STRIP ============ -->
+    <section class="platforms">
+      <div class="container platforms-inner">
+        <span>Published under our own name on</span>
+        <strong>iOS</strong>
+        <strong>iPadOS</strong>
+        <strong>Android</strong>
+        <strong>watchOS</strong>
+      </div>
+    </section>
+
+    <!-- ============ APPS ============ -->
+    <section id="apps" class="section">
+      <div class="container stack-48">
+        <div class="section-head">
+          <div class="section-title">
+            <div class="eyebrow">The portfolio</div>
+            <h2>Small apps. Sharp focus. Built to last.</h2>
+          </div>
+          <p class="section-intro">Each app solves one everyday problem exceptionally well — and earns its keep through subscriptions, not shortcuts.</p>
+        </div>
+
+        <div class="app-grid">
+          <!-- Replace each href with the app's App Store / Google Play / landing page link -->
+          <a class="app-card" href="#apps">
+            <div class="app-card-top">
+              <div class="app-icon" style="--icon-bg:#12241E; --icon-fg:#8FD3B6">
+                <svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+              </div>
+              <span class="tag">Sleep</span>
+            </div>
+            <div class="app-card-body">
+              <h3>Hush</h3>
+              <p>Soundscapes and wind-down routines that help you fall asleep faster.</p>
+            </div>
+            <div class="app-card-foot"><span>iOS · Android</span><span class="view">View app <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></span></div>
+          </a>
+
+          <a class="app-card" href="#apps">
+            <div class="app-card-top">
+              <div class="app-icon" style="--icon-bg:#1C1933; --icon-fg:#B4A7FF">
+                <svg viewBox="0 0 24 24"><path d="M3 3v18h18M7 15l4-4 3 3 5-6"/></svg>
+              </div>
+              <span class="tag">Finance</span>
+            </div>
+            <div class="app-card-body">
+              <h3>Tally</h3>
+              <p>A calm, private budget that tells you what you can actually spend today.</p>
+            </div>
+            <div class="app-card-foot"><span>iOS · Android</span><span class="view">View app <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></span></div>
+          </a>
+
+          <a class="app-card" href="#apps">
+            <div class="app-card-top">
+              <div class="app-icon" style="--icon-bg:#2A1C11; --icon-fg:#F0B37E">
+                <svg viewBox="0 0 24 24"><path d="M13 4a2 2 0 1 0 0 .1M5 21l4-7 3 2 2-5 4 3M9 14l-2-4 4-2"/></svg>
+              </div>
+              <span class="tag">Fitness</span>
+            </div>
+            <div class="app-card-body">
+              <h3>Stride</h3>
+              <p>Guided running plans that adapt to your pace, week by week.</p>
+            </div>
+            <div class="app-card-foot"><span>iOS · watchOS</span><span class="view">View app <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></span></div>
+          </a>
+
+          <a class="app-card" href="#apps">
+            <div class="app-card-top">
+              <div class="app-icon" style="--icon-bg:#1F1F24; --icon-fg:#E9E8F0">
+                <svg viewBox="0 0 24 24"><path d="M4 4h12l4 4v12H4zM8 12h8M8 16h5"/></svg>
+              </div>
+              <span class="tag">Productivity</span>
+            </div>
+            <div class="app-card-body">
+              <h3>Fieldnote</h3>
+              <p>A beautifully simple journal for thoughts, lists and daily reflections.</p>
+            </div>
+            <div class="app-card-foot"><span>iOS · iPadOS</span><span class="view">View app <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></span></div>
+          </a>
+
+          <a class="app-card" href="#apps">
+            <div class="app-card-top">
+              <div class="app-icon" style="--icon-bg:#2A1520; --icon-fg:#F2A7C3">
+                <svg viewBox="0 0 24 24"><path d="M12 3v2M12 19v2M3 12h2M19 12h2M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg>
+              </div>
+              <span class="tag">Photo &amp; Video</span>
+            </div>
+            <div class="app-card-body">
+              <h3>Lumen</h3>
+              <p>Pro-grade film looks and one-tap edits for photos straight from your camera roll.</p>
+            </div>
+            <div class="app-card-foot"><span>iOS · Android</span><span class="view">View app <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></span></div>
+          </a>
+
+          <a class="app-card" href="#apps">
+            <div class="app-card-top">
+              <div class="app-icon" style="--icon-bg:#10202A; --icon-fg:#8CC8F0">
+                <svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4zM8 9h8M8 12h5"/></svg>
+              </div>
+              <span class="tag">Education</span>
+            </div>
+            <div class="app-card-body">
+              <h3>Verba</h3>
+              <p>Five-minute daily lessons that make a new language stick.</p>
+            </div>
+            <div class="app-card-foot"><span>iOS · Android</span><span class="view">View app <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STUDIO / MODEL ============ -->
+    <section id="studio" class="section section-alt">
+      <div class="container stack-56">
+        <div class="studio-head">
+          <div class="section-title">
+            <div class="eyebrow">How we work</div>
+            <h2>Not an agency.<br>An owner–operator.</h2>
+          </div>
+          <p class="studio-intro">We don’t take briefs or bill hours. We hold the code, the brand, the store listings and the customer relationship — so every improvement we make compounds inside our own portfolio, not someone else’s.</p>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <span class="step-num">01</span>
+            <h3>Spot</h3>
+            <p>We find durable, everyday needs that existing apps serve poorly — and validate demand before we write a line.</p>
+          </li>
+          <li>
+            <span class="step-num">02</span>
+            <h3>Build</h3>
+            <p>A small in-house team designs and engineers every app natively, on a shared foundation that makes each launch faster.</p>
+          </li>
+          <li>
+            <span class="step-num">03</span>
+            <h3>Publish</h3>
+            <p>We ship under our own developer accounts and own distribution end to end — store presence, growth and support.</p>
+          </li>
+          <li>
+            <span class="step-num">04</span>
+            <h3>Compound</h3>
+            <p>Subscriptions and in-app revenue fund the next product. Learnings, code and audience carry across the whole portfolio.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ TRACTION ============ -->
+    <section id="traction" class="section section-lg">
+      <div class="container stack-56">
+        <div class="section-title" style="max-width:640px">
+          <div class="eyebrow">Traction</div>
+          <h2>Quietly profitable. Steadily growing.</h2>
+        </div>
+
+        <!-- Replace the bracketed placeholders with your real figures -->
+        <dl class="stats">
+          <div class="stat"><dt>Lifetime downloads</dt><dd>[00]M+</dd></div>
+          <div class="stat"><dt>Average store rating</dt><dd>[0.0]★</dd></div>
+          <div class="stat"><dt>Paying subscribers</dt><dd>[000]K</dd></div>
+          <div class="stat"><dt>Countries with active users</dt><dd>[000]</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ PARTNERS CTA ============ -->
+    <section id="partners" class="section-cta">
+      <div class="container">
+        <div class="cta-card">
+          <div class="glow glow-cta" aria-hidden="true"></div>
+          <div class="cta-inner">
+            <div class="cta-copy">
+              <div class="eyebrow">Partners &amp; investors</div>
+              <h2>Let’s build something that compounds.</h2>
+              <p>We work with investors, platforms and acquirers who share a long-term view of mobile. Talk to us about our portfolio, our numbers or a potential acquisition.</p>
+            </div>
+            <div class="cta-actions">
+              <a href="mailto:hello@moonward.studio" class="btn btn-accent btn-lg">
+                hello@moonward.studio
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+              <a href="mailto:press@moonward.studio?subject=Press%20kit%20request" class="btn btn-ghost btn-lg">Request the press kit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <svg width="20" height="20" viewBox="0 0 26 26" aria-hidden="true">
+          <circle cx="13" cy="13" r="12" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M16 5.5a8 8 0 1 0 0 15 9.5 9.5 0 0 1 0-15z" fill="currentColor"/>
+        </svg>
+        <span class="footer-name">Moonward</span>
+        <span class="footer-legal">© <span id="year">2026</span> Moonward Studio. All apps owned and published by Moonward.</span>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#apps">Apps</a>
+        <a href="#studio">Studio</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
